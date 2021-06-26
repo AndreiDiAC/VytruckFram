@@ -24,4 +24,9 @@ public class VehicleFleetPage {
         LibraryFleetVehiclePage vehiclePage = new LibraryFleetVehiclePage();
         Assert.assertTrue(vehiclePage.GridRightToReset.isDisplayed());
     }
+
+    public static void refresh_leftTo_Reset(){
+        LibraryFleetVehiclePage vehiclePage = new LibraryFleetVehiclePage();
+        Assert.assertTrue(vehiclePage.RefreshLeftToReset.isDisplayed());
+    }
 }

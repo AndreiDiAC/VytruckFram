@@ -30,4 +30,7 @@ public class LibraryFleetVehiclePage {
 
     @FindBy(xpath = "//div[@class='actions-panel pull-right form-horizontal']//div[@class='column-manager dropdown']/preceding-sibling::a[1]")
     public WebElement GridRightToReset;
+
+    @FindBy(xpath = "//div[@class='actions-panel pull-right form-horizontal']//a[@title='Refresh']/following-sibling::a[1]")
+    public WebElement RefreshLeftToReset;
 }

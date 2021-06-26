@@ -17,4 +17,7 @@ public class LibraryMainPage {
 
     @FindBy( css = "[type='submit']")
     public WebElement loginButton;
+
+    @FindBy (xpath = "href=\"/account\"")
+    public WebElement something;
 }
