@@ -17,6 +17,10 @@ public class VehicleFleetPage {
         vehiclePage.fleetFunctionality.click();
         BrowserUtil.sleep(1);
         vehiclePage.vehicleFleetDropdown.click();
+        BrowserUtil.sleep(1);
+
+        String expectedTitle = "Car - Entities - System - Car - Entities - System";
+        Assert.assertEquals(Driver.getDriver().getTitle(), expectedTitle);
 
     }
 

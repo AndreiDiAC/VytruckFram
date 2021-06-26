@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class testingFleetVehiclePage {
+public class testingInFleetVehiclePage {
 
     @BeforeClass
     public void setUp(){
